@@ -3,6 +3,16 @@ body {
     background-color: hotpink;
 }
 /* Containers */
+
+.alert-container,
+.alert-warning,
+.site-wide-alert,
+.alert-danger {
+    color: hotpink;
+    background-color: pink;
+    border-color: hotpink;
+}
+
 .jumbotron {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -26,7 +36,7 @@ body {
     color: #F09DC3;
 }
 
-.alert-container {}
+
 
 .callout-container {
     height: 100vh;
