@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: hotpink;
+}
+/* Containers */
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #F2CEDF;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    border-color: crimson;
+    border-width: medium;
+}
+
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #880b38f7;
+    color: #F09DC3;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+        background: url("https://thumbs.dreamstime.com/b/cute-cartoon-unicorn-seamless-pattern-background-illustration-stars-vector-74168899.jpg") repeat center center fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #F09DC3;
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.label-success {
+    background-color: #F09DC3;
+}
+.btn-success {
+    color: #fff;
+    background-color: #F09DC3;
+    border-color: #F09DC3;
+}
